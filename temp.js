@@ -1,4 +1,4 @@
-javascript:function loadScript(u,c,e){var s=document.createElement('script');s.src=u;s.onload=c;s.onerror=e;(document.head||document.documentElement).appendChild(s);}
+javascript: function loadScript(u,c,e){var s=document.createElement('script');s.src=u;s.onload=c;s.onerror=e;(document.head||document.documentElement).appendChild(s);}
 
 if(typeof Swal==='undefined'){
   loadScript('https://cdn.jsdelivr.net/npm/sweetalert2@11',function(){
