@@ -4,7 +4,7 @@ javascript:(function(){
   
   
   
-javascript:(function(){function loadScript(u,c,e){var s=document.createElement('script');s.src=u;s.onload=c;s.onerror=e;(document.head||document.documentElement).appendChild(s);}function showAlert(){Swal.fire({icon:'warning',title:'Full credits to eason.',text:'\u26A0\u26A0\u26A0 I AM NOT RESPONSIBLE FOR YOUR ACC GETTING BANNED \u26A0\u26A0\u26A0'});}if(typeof Swal==='undefined'){loadScript('https://cdn.jsdelivr.net/npm/sweetalert2@11',function(){setTimeout(showAlert,100);},function(){console.error('Failed to load SweetAlert2.');});}else{showAlert();}})();
+javascript:(function(){function loadScript(u,c,e){var s=document.createElement('script');s.src=u;s.onload=c;s.onerror=e;(document.head||document.documentElement).appendChild(s);}function showAlert(){Swal.fire({icon:'warning',title:'Full credits to Eason.',text:'\u26A0\u26A0\u26A0 I AM NOT RESPONSIBLE FOR YOUR ACC GETTING BANNED \u26A0\u26A0\u26A0'});}if(typeof Swal==='undefined'){loadScript('https://cdn.jsdelivr.net/npm/sweetalert2@11',function(){setTimeout(showAlert,100);},function(){console.error('Failed to load SweetAlert2.');});}else{showAlert();}})();
 
   
   
