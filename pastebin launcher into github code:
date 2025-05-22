@@ -1,0 +1,6 @@
+(function(){  function loadScript(url, callback, errorCallback) {    var script = document.createElement('script');    script.src = url;    script.onload = callback;    script.onerror = errorCallback;    (document.head || document.documentElement).appendChild(script);  }  function loadMainScript() {    loadScript(      'https://cdn.jsdelivr.net/gh/E1011au1/Nitrotype@main/Bookmarklet.js',      function() {        Swal.fire({          icon: 'success',          title: 'Script loaded!',          text: '✅ The script was successfully loaded.'        });      },      function() {        Swal.fire({          icon: 'error',          title: 'Load failed',          text: '❌ Failed to load — make sure you are on Nitrotype.'        });      }    );  }  if (typeof Swal === 'undefined') {    loadScript('https://cdn.jsdelivr.net/npm/sweetalert2@11',      function() {        loadMainScript();      },      function() {        alert('❌ Failed to load SweetAlert2.');      });  } else {    loadMainScript();  }})();
+
+
+
+
+
